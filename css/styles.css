@@ -1,0 +1,22 @@
+body {
+  background: #f7f7f7;
+}
+
+svg {
+  display: block;
+  margin: auto;
+}
+
+.dottie {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.dot {
+  margin-bottom: 2rem;
+  height: 25px;
+  width: 25px;
+  background-color: #b3cccc;
+  border-radius: 50%;
+}
