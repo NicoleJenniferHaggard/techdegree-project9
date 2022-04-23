@@ -2,6 +2,10 @@ body {
   background: #f7f7f7;
 }
 
+.about {
+  text-align: right;
+}
+
 svg {
   display: block;
   margin: auto;
@@ -11,6 +15,7 @@ svg {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  width: 100%;
 }
 
 .dot {
@@ -19,4 +24,53 @@ svg {
   width: 25px;
   background-color: #b3cccc;
   border-radius: 50%;
+}
+
+.contact {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+@media only screen and (min-width: 768px) {
+ .about {
+   text-align: left;
+   padding-left: 2rem;
+ }
+
+.card-full {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.projects {
+   flex: 250px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
+}
+
+
+@media only screen and (min-width: 1024px) {
+
+nav {
+  margin-left: 10px;
+  font-size: 24px;
+}
+
+.about {
+  font-size: 18px;
+}
+
+.projects {
+   flex: 400px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
+
+}
 }
