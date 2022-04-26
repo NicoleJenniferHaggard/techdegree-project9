@@ -35,6 +35,9 @@ svg {
   text-decoration: none;
   color: black;
 }
+.projects svg:hover {
+  fill: #b3cccc;
+}
 
 @media only screen and (min-width: 768px) {
  .about {
