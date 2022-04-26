@@ -2,6 +2,11 @@ body {
   background: #f7f7f7;
 }
 
+.nav-link:hover {
+  background-color: #b3cccc;
+  border-radius: 30px;
+}
+
 .about {
   text-align: right;
 }
