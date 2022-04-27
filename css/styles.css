@@ -44,8 +44,11 @@ svg {
 }
 
 .link {
-  text-decoration: none;
   color: black;
+}
+
+.link:hover {
+  color: #b3cccc;
 }
 
 .plink {
