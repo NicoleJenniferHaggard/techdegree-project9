@@ -68,7 +68,7 @@ svg {
 }
 
 .projects {
-   flex: 250px;
+   flex: 50%;
    padding-top: 20px;
    padding-bottom: 20px;
 }
@@ -93,7 +93,7 @@ nav {
 }
 
 .projects {
-   flex: 400px;
+   flex: 50%;
    padding-top: 20px;
    padding-bottom: 20px;
 }
