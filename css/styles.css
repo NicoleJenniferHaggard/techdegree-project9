@@ -48,6 +48,14 @@ svg {
   color: black;
 }
 
+.plink {
+  color: #d9b38c;
+}
+
+.plink:hover {
+  color: #b3cccc;
+}
+
 @media only screen and (min-width: 768px) {
  .about {
    text-align: left;
@@ -90,5 +98,5 @@ nav {
    padding-bottom: 20px;
 }
 
-}
+
 }
